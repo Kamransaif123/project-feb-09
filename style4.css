@@ -1,0 +1,33 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+}
+div {
+    height: 500px;
+    width: 700px;
+    border-radius: 50px;
+    background-color: #7fffd5;
+    margin: 20px 150px;
+}
+@media screen and (min-width: 425px) {
+    div {
+        background-color: #ca3141;
+    }
+}
+@media screen and (min-width: 768px) {
+    div {
+        background-color: #75fbfd;
+    }
+}
+@media screen and (min-width: 1024px) {
+    div {
+        background-color: #b1882f;
+    }
+}
+@media screen and (min-width: 1440px) {
+    div {
+        background-color: #208b21;
+    }
+}
